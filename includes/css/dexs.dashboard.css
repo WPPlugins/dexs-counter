@@ -1,0 +1,89 @@
+/* 
+ |	DEXS.COUNTER
+ |	@file		./includes/css/dexs.dashboard.css
+ |	@author		SamBrishes@pytesNET
+ |	@version	0.1.3 [0.1.0] - Alpha
+ |
+ |	@license	X11 / MIT License
+ |	@copyright	Copyright © 2015 - 2016 pytesNET
+ */
+
+/* @start DASHBOARD WIDGET */
+#dexs-counter .inside{
+	margin: 0;
+	padding-bottom: 0;
+}
+#dexs-counter .inside .dexs-counter-part{
+	width: 100%;
+	margin: 0 -12px;
+	padding: 8px 12px;
+	border-bottom: 1px solid #eeeeee;
+}
+#dexs-counter .inside .dexs-counter-part:last-child{
+	border-bottom: none;
+}
+#dexs-counter .inside .dexs-counter-part h3{
+	color: #23282d;
+	margin: 0 0 5px 0;
+	padding: 0;
+	font-size: 14px;
+	font-weight: 400;
+}
+#dexs-counter .inside .dexs-counter-part .dexs-counter-stats-chart-holder{
+	color: #aaaaaa;
+	width: 100%;
+	height: 150px;
+	margin: 5px 0;
+	padding: 0;
+	display: block;
+	font-size: 18px;
+	text-align: center;
+	line-height: 150px;
+	background: #f0f0f0;
+}
+#dexs-counter .inside .dexs-counter-part canvas{
+	margin: 15px 0 10px 0;
+}
+#dexs-counter .inside .dexs-counter-part ul{
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+#dexs-counter .inside .dexs-counter-part ul>li{
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+#dexs-counter .inside .dexs-counter-part ul>li.item-empty{
+	color: #aaaaaa;
+	padding: 5px 15px;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px; 
+}
+#dexs-counter .inside .dexs-counter-part ul>li>a{
+	margin: 0;
+	padding: 5px 15px;
+	display: block;
+}
+#dexs-counter .inside .dexs-counter-part ul>li>a span.item-title{
+	margin: 0;
+	padding: 0;
+	display: block;
+	font-size: 14px;
+	line-height: 16px; 
+}
+#dexs-counter .inside .dexs-counter-part ul>li>a span.item-date,
+#dexs-counter .inside .dexs-counter-part ul>li>a span.item-views,
+#dexs-counter .inside .dexs-counter-part ul>li>a span.item-ratings{
+	color: #777777;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	font-size: 12px;
+	line-height: 14px; 
+}
+#dexs-counter .inside .dexs-counter-part ul>li>a span.item-date{
+	padding: 0 6px;
+}
+/* @end DASHBOARD WIDGET */

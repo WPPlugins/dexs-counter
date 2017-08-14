@@ -1,0 +1,489 @@
+/* 
+ |	DEXS.COUNTER
+ |	@file		./includes/css/dexs.config.css
+ |	@author		SamBrishes@pytesNET
+ |	@version	0.1.3 [0.1.0] - Alpha
+ |
+ |	@license	X11 / MIT License
+ |	@copyright	Copyright © 2015 - 2016 pytesNET
+ */
+
+/* @start GENERAL */
+.dexs-wrap{
+	margin: 0 0 0 -20px;
+	padding: 0;
+	display: block;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.dexs-wrap *{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.dexs-wrap pre{
+	color: #aaaaaa;
+	margin: 15px 0;
+	padding: 15px;
+	display: block;
+	font-size: 12px;
+	tab-size: 4;
+	-o-tab-size: 4;
+	-moz-tab-size: 4;
+	background: #333333;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+.dexs-wrap pre .pre-php{
+	color: #E14D43;
+}
+.dexs-wrap pre .pre-var{
+	color: #69A8BB;
+}
+.dexs-wrap pre .pre-string{
+	color: #ffffff;
+}
+.dexs-wrap pre .pre-comment{
+	color: rgba(120, 220, 130, 0.75);
+	font-style: italic;
+}
+.dexs-wrap input[type="checkbox"].dexs-switch{
+	display: none;
+	-moz-appearance: none;
+}
+.dexs-wrap input[type="checkbox"].dexs-switch+label{
+	width: 70px;
+	height: 28px;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	position: relative;
+	background: #e14d43;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	transition: background 142ms linear;
+	-o-transition: background 142ms linear;
+	-ms-transition: background 142ms linear;
+	-moz-transition: background 142ms linear;
+	-webkit-transition: background 142ms linear;
+}
+.dexs-wrap input[type="checkbox"].dexs-switch:checked+label{
+	background: #69a8bb;
+}
+.dexs-wrap input[type="checkbox"].dexs-switch+label:before{
+	top: 2px;
+	left: 2px;
+	width: 35px;
+	height: 24px;
+	margin: 0;
+	padding: 0;
+	content: "";
+	display: inline-block;
+	position: absolute;
+	background: #ffffff;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	transition: left 142ms linear;
+	-o-transition: left 142ms linear;
+	-ms-transition: left 142ms linear;
+	-moz-transition: left 142ms linear;
+	-webkit-transition: left 142ms linear;
+}
+.dexs-wrap input[type="checkbox"].dexs-switch:checked+label:before{
+	left: 33px;
+}
+.dexs-wrap input[type="checkbox"].dexs-switch+label:after{
+	color: #ffffff;
+	margin: 0;
+	padding: 2px 6px 0 6px;
+	content: "\f147 \f335";
+	display: inline-block;
+	font: normal normal normal 20px/27px dashicons;
+    text-align: center;
+    font-weight: 400;
+	letter-spacing: 17px;
+    vertical-align: top;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/* @end GENERAL */
+
+/* @start HEADER */
+.dexs-wrap .dexs-header{
+	width: 100%;
+	height: 50px;
+	margin: 0;
+	padding: 0 30px;
+	display: block;
+	background: #e14d43;
+}
+.dexs-wrap .dexs-header .dexs-logo{
+	width: auto;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	vertical-align: top;
+}
+.dexs-wrap .dexs-header .dexs-logo .dexs-title{
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	font-size: 20px;
+	line-height: 50px;
+	vertical-align: baseline;
+}
+.dexs-wrap .dexs-header .dexs-logo .dexs-subtitle{
+	color: rgba(255, 255, 255, 0.75);
+	margin: 0 3px 0 -3px;
+	padding: 0;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 50px;
+	vertical-align: baseline;
+}
+.dexs-wrap .dexs-header .dexs-love{
+	float: right;
+	color: #e14d43;
+	width: 40px;
+	height: 25px;
+	margin: 12.5px 10px 0 10px;
+	padding: 0;
+	display: inline-block;
+	font-size: 22px;
+	text-align: center;
+	line-height: 25px;
+	vertical-align: top;
+	background: #e14d43;
+	background-color: #ffffff;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+.dexs-wrap .dexs-header .dexs-love span{
+	width: auto;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	line-height: 25px;
+}
+.dexs-wrap .dexs-header ul.dexs-menu{
+	width: auto;
+	margin: 0;
+	padding: 0 15px;
+	display: inline-block;
+	list-style: none;
+	vertical-align: top;
+}
+.dexs-wrap .dexs-header ul.dexs-menu>li.dexs-item{
+	float: left;
+	width: auto;
+	margin: 0;
+	padding: 10px 5px;
+	display: inline-block;
+	list-style: none;
+	vertical-align: top;
+}
+.dexs-wrap .dexs-header ul.dexs-menu>li.dexs-item>a{
+	color: #ffffff;
+	width: auto;
+	margin: 0;
+	padding: 0 15px;
+	display: block;
+	font-size: 14px;
+	line-height: 30px;
+	vertical-align: top;
+	text-decoration: none;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+.dexs-wrap .dexs-header ul.dexs-menu>li.dexs-item>a:hover{
+	background: rgba(0, 0, 0, 0.2);
+	box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: inset 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: inset 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+.dexs-wrap .dexs-header ul.dexs-menu>li.dexs-item.active>a{
+	color: #e14d43;
+	background: #ffffff;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+/* @end HEADER */
+
+/* @start CONTENT */
+.dexs-wrap .dexs-content{
+	width: 100%;
+	margin: 0;
+	padding: 30px 30px;
+	display: block;
+	position: relative;
+}
+.dexs-wrap .dexs-content .dexs-page{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+.dexs-wrap .dexs-content .dexs-status{
+	color: #ffffff;
+	width: 550px;
+	margin: 0 auto 15px auto;
+	padding: 10px 15px;
+	display: block;
+}
+.dexs-wrap .dexs-content .dexs-status p{
+	margin: 0;
+	padding: 0;
+}
+.dexs-wrap .dexs-content .dexs-status.dexs-status-info{
+	background: #69a8bb;
+}
+.dexs-wrap .dexs-content .dexs-status.dexs-status-error{
+	background: #e14d43;
+}
+.dexs-wrap .dexs-content .dexs-status.dexs-status-success{
+	background: #46b450;
+}
+.dexs-wrap .dexs-content .dexs-settings{
+	width: 550px;
+	margin: 0 auto;
+	padding: 0;
+	display: block;
+}
+.dexs-wrap .dexs-content .dexs-settings .dexs-setting{
+	width: 100%;
+	margin: 0 0 15px 0;
+	padding: 0;
+	display: block;
+	border: 1px solid #d0d0d0;
+	background: #ffffff;
+	box-shadow: 0 1px 1px 0 #dfdfdf;
+	-moz-box-shadow: 0 1px 1px 0 #dfdfdf;
+	-webkit-box-shadow: 0 1px 1px 0 #dfdfdf;
+}
+.dexs-wrap .dexs-content .dexs-settings .dexs-setting .dexs-setting-header{
+	width: 100%;
+	margin: 10px 0;
+	padding: 0;
+	display: table;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+.dexs-wrap .dexs-content .dexs-settings .dexs-setting .dexs-setting-header .dexs-setting-title{
+	margin: 0;
+	padding: 0 15px;
+	display: table-cell;
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: normal;
+	vertical-align: top;
+}
+.dexs-wrap .dexs-content .dexs-settings .dexs-setting .dexs-setting-header .dexs-setting-main{
+	margin: 0;
+	padding: 0 15px;
+	display: table-cell;
+	text-align: right;
+	vertical-align: top;
+}
+.dexs-wrap .dexs-content .dexs-settings .dexs-setting .dexs-setting-header .dexs-setting-reset,
+.dexs-wrap .dexs-content .dexs-settings .dexs-setting .dexs-setting-header .dexs-setting-submit{
+	margin: 0;
+	padding: 0 15px;
+	display: table-cell;
+	vertical-align: top;
+}
+.dexs-wrap .dexs-content .dexs-settings .dexs-setting .dexs-setting-header .dexs-setting-submit{
+	text-align: right;
+}
+.dexs-wrap .dexs-content .dexs-settings .dexs-setting .dexs-setting-description{
+	color: #777777;
+	width: 100%;
+	margin: 0;
+	padding: 0 15px 10px 15px;
+	display: block;
+	font-size: 13px;
+	font-style: italic;
+	line-height: 18px;
+}
+.dexs-wrap .dexs-content .dexs-settings .dexs-setting .dexs-setting-content{
+	width: 100%;
+	margin: 0;
+	padding: 10px 15px;
+	display: block;
+	border-top: 1px solid #dfdfdf;
+	background: #f6f6f6;
+}
+.dexs-wrap .dexs-content .dexs-settings .dexs-setting .dexs-setting-tip{
+	color: #777777;
+	width: 100%;
+	margin: 0;
+	padding: 5px 10px;
+	display: block;
+	border-top: 1px solid #dfdfdf;
+	background: #f6f6f6;
+	font-size: 12px;
+	font-style: italic;
+	text-align: center;
+	line-height: 18px;
+}
+.dexs-wrap .dexs-content .dexs-settings .dexs-setting .dexs-setting-content table{
+	width: 100%;
+	margin: 0;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+.dexs-wrap .dexs-content .dexs-settings .dexs-setting .dexs-setting-content table tr th,
+.dexs-wrap .dexs-content .dexs-settings .dexs-setting .dexs-setting-content table tr td{
+	padding: 5px;
+	font-size: 13px;
+	text-align: left;
+	font-weight: normal;
+	vertical-align: top;
+	border-bottom: 1px solid #dfdfdf;
+}
+.dexs-wrap .dexs-content .dexs-settings .dexs-setting .dexs-setting-content table tr:last-child th,
+.dexs-wrap .dexs-content .dexs-settings .dexs-setting .dexs-setting-content table tr:last-child td{
+	border-bottom: none;
+}
+.dexs-wrap .dexs-content .dexs-settings .dexs-setting .dexs-setting-content table tr th{
+	width: 140px;
+	line-height: 28px;
+}
+.dexs-wrap .dexs-content .dexs-settings .dexs-setting .dexs-setting-content table tr td label{
+	width: 115px;
+	height: 28px;
+	margin: 0 1px;
+	padding: 6px 0;
+	display: inline-block;
+}
+.dexs-wrap .dexs-content .dexs-settings .dexs-setting .dexs-setting-content table tr td input[type="text"],
+.dexs-wrap .dexs-content .dexs-settings .dexs-setting .dexs-setting-content table tr td select{
+	vertical-align: top;
+}
+/* @end CONTENT */
+
+/* @start DOCUMENTATION */
+.dexs-wrap .dexs-content .dexs-page-sidebar{
+	width: auto;
+	margin: 0 300px 0 0;
+	padding: 25px 30px;
+	display: block;
+	border: 1px solid #d0d0d0;
+	vertical-align: top;
+	background: #ffffff;
+	box-shadow: 0 1px 1px 0 #dfdfdf;
+	-moz-box-shadow: 0 1px 1px 0 #dfdfdf;
+	-webkit-box-shadow: 0 1px 1px 0 #dfdfdf;
+}
+.dexs-wrap .dexs-content .dexs-page-sidebar h1{
+	color: #bbbbbb;
+	margin: 0 0 0 -25px;
+	padding: 0 10px 5px 10px;
+	font-size: 20px;
+	line-height: 0px;
+	font-weight: normal;
+}
+.dexs-wrap .dexs-content .dexs-page-sidebar h2{
+	margin: 15px 0;
+	padding: 0 10px 5px 10px;
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: normal;
+	border-bottom: 1px solid #d0d0d0;
+}
+.dexs-wrap .dexs-content .dexs-page-sidebar h3{
+	margin: 15px 0;
+	padding: 0 10px 5px 10px;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: normal;
+	border-bottom: 1px solid #d0d0d0;
+}
+.dexs-wrap .dexs-content .dexs-page-sidebar h4{
+	margin: 15px 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: normal;
+}
+.dexs-wrap .dexs-content .dexs-page-sidebar p{
+	margin: 15px 0;
+	padding: 0 10px;
+	font-size: 14px;
+	line-height: 20px;
+}
+.dexs-wrap .dexs-content .dexs-page-sidebar dl{
+	margin: 15px 0;
+	padding: 0 10px;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+.dexs-wrap .dexs-content .dexs-page-sidebar dl dt{
+	color: #69a8bb;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 20px;
+}
+.dexs-wrap .dexs-content .dexs-page-sidebar dl dd{
+	color: #555555;
+	margin: 2px 0 0 0;
+	padding: 0 30px;
+	font-size: 14px;
+	line-height: 20px;
+}
+.dexs-wrap .dexs-content .dexs-page-sidebar>*:first-child{
+	margin-top: 0;
+}
+.dexs-wrap .dexs-content .dexs-page-sidebar>*:last-child{
+	margin-bottom: 0;
+}
+.dexs-wrap .dexs-content .dexs-sidebar{
+	top: 30px;
+	right: 30px;
+	float: right;
+	width: 250px;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	position: absolute;
+	vertical-align: top;
+}
+.dexs-wrap .dexs-content .dexs-sidebar ul{
+	margin: 0;
+	padding: 0 10px;
+	display: block;
+}
+.dexs-wrap .dexs-content .dexs-sidebar ul>li{
+	margin: 2px 0;
+	padding: 2px 0;
+	display: block;
+	font-size: 16px;
+	line-height: 22px;
+}
+.dexs-wrap .dexs-content .dexs-sidebar ul>li>ul>li{
+	margin: 0;
+	font-size: 14px;
+	line-height: 20px;
+}
+.dexs-wrap .dexs-content .dexs-sidebar ul>li>a{
+	color: #333333;
+	text-decoration: none;
+}
+.dexs-wrap .dexs-content .dexs-sidebar ul>li>a:hover{
+	color: #69a8bb;
+}
+/* @end DOCUMENTATION */

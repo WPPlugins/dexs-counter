@@ -1,0 +1,299 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Dexs Counter 0.1.0\n"
+"POT-Creation-Date: 2016-12-14 23:49+0100\n"
+"PO-Revision-Date: 2016-12-15 00:07+0100\n"
+"Last-Translator: \n"
+"Language-Team: pytesNET <sam@sambrishes.net>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: dexs-counter.php:15
+msgid ""
+"A simple but powerful view counter and rating system, with own (dashboard) "
+"widgets, for your awesome WordPress website."
+msgstr ""
+"Ein einfacher aber starker Beitragszähler sowie ein Bewertungssystem, mit "
+"eigenen Widgets, für deine coole WordPress Webseite."
+
+#: system/admin.config.php:20 system/admin.docs.php:20
+#: system/class.counter.php:93
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: system/admin.config.php:21 system/admin.docs.php:21
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: system/admin.config.php:31
+msgid "Settings have been successfully reseted!"
+msgstr "Einstellungen wurden erfolgreich zurückgesetzt!"
+
+#: system/admin.config.php:33
+msgid "Settings have been successfully saved!"
+msgstr "Einstellungen wurden erfolgreich gespeichert!"
+
+#: system/admin.config.php:40
+msgid "Settings couldn't be reseted!"
+msgstr "Einstellungen konnten nicht zurückgesetzt werden!"
+
+#: system/admin.config.php:42
+msgid "Settings couldn't be saved!"
+msgstr "Einstellungen konnten nicht gespeichert werden!"
+
+#: system/admin.config.php:54
+msgid "Reset Settings"
+msgstr "Zurücksetzen"
+
+#: system/admin.config.php:58
+msgid "Save Settings"
+msgstr "Speichern"
+
+#: system/admin.config.php:62
+msgid "Don't forget to save the settings!"
+msgstr "Vergiss nicht die Einstellungen zu speichern!"
+
+#: system/admin.config.php:69
+msgid "Extended Statistics"
+msgstr "Erweiterte Statistiken"
+
+#: system/admin.config.php:78
+msgid ""
+"Enable this option to store each day viewer and rating counter and display "
+"this data as a diagram inside the Dexs dashboard widget."
+msgstr ""
+"Aktiviere diese Option um jeden täglichen Counter zu speichern und diese "
+"Daten in einem Diagramm im Dexs Dashboard Widget anzuzeigen."
+
+#: system/admin.config.php:85
+msgid "Sidebar Widgets"
+msgstr "Sidebar Widgets"
+
+#: system/admin.config.php:94
+msgid ""
+"Enable this option to use the Dexs Sidebar Widgets on your Frontend Theme."
+msgstr ""
+"Aktiviere diese Option um die Dexs Sidebar Widgets für dein Design zu "
+"aktivieren."
+
+#: system/admin.config.php:101
+msgid "Viewer Counter"
+msgstr "Beitragszähler"
+
+#: system/admin.config.php:106
+msgid "The Viewer Counter saves every view on each enabled post type."
+msgstr ""
+"Der Beitragszähler speichert jeden Klick auf den aktivierten Beitragstypen."
+
+#: system/admin.config.php:111 system/admin.config.php:152
+msgid "Post Types"
+msgstr "Beitragstypen"
+
+#: system/admin.config.php:124 system/admin.config.php:165
+msgid "Exclude Roles"
+msgstr "Rollen ausschließen"
+
+#: system/admin.config.php:142
+msgid "Rating System"
+msgstr "Bewertungssystem"
+
+#: system/admin.config.php:147
+msgid "The Rating System allows your reader to rate your posts."
+msgstr "Das Bewertungssystem erlaubt deinen Lesern deine Beiträge zu bewerten."
+
+#: system/admin.config.php:179
+msgid "Rating Layout"
+msgstr "Bewertungslayout"
+
+#: system/admin.config.php:183
+msgid "Like"
+msgstr "Gefällt Mir"
+
+#: system/admin.config.php:184
+msgid "Like and Dislike"
+msgstr "Gefällt Mir und Gefällt Mir Nicht"
+
+#: system/admin.config.php:185
+msgid "3-Level Rating"
+msgstr "3-Level Bewertung"
+
+#: system/admin.config.php:186
+msgid "5-Level Rating"
+msgstr "5-Level Bewertung"
+
+#: system/admin.widget.php:14
+msgid "Statistics"
+msgstr "Statistiken"
+
+#: system/admin.widget.php:16 system/admin.widget.php:56
+#: system/admin.widget.php:98
+msgid "I'm sorry, but there is no data to display yet!"
+msgstr "Es können noch keine Daten angezeigt werden!"
+
+#: system/admin.widget.php:23
+msgid "Most-Viewed Posts"
+msgstr "Meistgeklickten Beiträge"
+
+#: system/admin.widget.php:45
+msgid "Total"
+msgstr "Insgesamt"
+
+#: system/admin.widget.php:46 system/class.counter.php:324
+msgid "Unique"
+msgstr "Unique"
+
+#: system/admin.widget.php:66
+msgid "Best-Rated Posts"
+msgstr "Bestbewertesten Beiträge"
+
+#: system/admin.widget.php:88
+msgid "Ratings"
+msgstr "Bewertungen"
+
+#: system/class.counter.php:101
+#, php-format
+msgid "Made with %s"
+msgstr "Mit %s geschrieben"
+
+#: system/class.counter.php:145
+msgid "Counter Statistics"
+msgstr "Zähler Statistiken"
+
+#: system/class.counter.php:309 system/class.counter.php:314
+#: system/class.counter.php:319
+msgid "Today"
+msgstr "Heute"
+
+#: system/class.counter.php:324
+msgid "Views"
+msgstr "Aufrufe"
+
+#: system/class.widgets.php:21
+msgid "View-Counter List"
+msgstr "Beitragszähler Liste"
+
+#: system/class.widgets.php:24
+msgid ""
+"This widget allows you to create a custom content list, depending on the "
+"view counter."
+msgstr ""
+"Mit diesem Widget kannst du eine benutzerdefinierte Beitragsliste, auf Basis "
+"des Beitragszählers, anzeigen lassen."
+
+#: system/class.widgets.php:46
+msgid "Total Views:"
+msgstr "Alle Aufrufe:"
+
+#: system/class.widgets.php:49
+msgid "Unique Views:"
+msgstr "Einmalige Aufrufe:"
+
+#: system/class.widgets.php:52
+msgid "Total Views Today:"
+msgstr "Heutige Aufrufe:"
+
+#: system/class.widgets.php:55
+msgid "Unique Views Today:"
+msgstr "Einmalige Heutige Aufrufe:"
+
+#: system/class.widgets.php:174 system/class.widgets.php:432
+msgid "Title"
+msgstr "Titel"
+
+#: system/class.widgets.php:182 system/class.widgets.php:440
+msgid "Display Post Date?"
+msgstr "Datum anzeigen?"
+
+#: system/class.widgets.php:186
+msgid "Display View Counter?"
+msgstr "Beitragszähler anzeigen?"
+
+#: system/class.widgets.php:192 system/class.widgets.php:446
+msgid "Post Type"
+msgstr "Beitragstyp"
+
+#: system/class.widgets.php:205 system/class.widgets.php:459
+msgid "Category"
+msgstr "Kategorie"
+
+#: system/class.widgets.php:209 system/class.widgets.php:463
+msgid "All Categories"
+msgstr "Alle Kategorien"
+
+#: system/class.widgets.php:218 system/class.widgets.php:472
+msgid "Number of Items"
+msgstr "Anzahl der Beiträge"
+
+#: system/class.widgets.php:227 system/class.widgets.php:481
+msgid "Order By"
+msgstr "Sortieren Nach"
+
+#: system/class.widgets.php:231
+msgid "Total Views"
+msgstr "Alle Klicks"
+
+#: system/class.widgets.php:232
+msgid "Unique Views"
+msgstr "Einzigartige Klicks"
+
+#: system/class.widgets.php:240
+msgid "LifeTime"
+msgstr "Seit Jeher"
+
+#: system/class.widgets.php:241
+msgid "for Today"
+msgstr "Seit Heute"
+
+#: system/class.widgets.php:265 system/class.widgets.php:512
+msgid "Exclude"
+msgstr "Ausschließen"
+
+#: system/class.widgets.php:268 system/class.widgets.php:515
+msgid "Post-Type Content IDs, separated by commas."
+msgstr "BeitragsIDs, getrennt durch Kommas"
+
+#: system/class.widgets.php:293
+msgid "Rate-Counter List"
+msgstr "Bewertungsliste"
+
+#: system/class.widgets.php:296
+msgid ""
+"This widget allows you to create a custom content list, depending on the "
+"rating counter."
+msgstr ""
+"Mit diesem Widget kannst du eine benutzerdefinierte Beitragsliste, auf Basis "
+"der Bewertungen, anzeigen lassen."
+
+#: system/class.widgets.php:485
+msgid "best-rated"
+msgstr "best-bewertesten"
+
+#: system/class.widgets.php:486
+msgid "most-rated"
+msgstr "meist-bewertesten"
+
+#: system/class.widgets.php:487
+msgid "worst-rated"
+msgstr "schlecht-bewertesten"
+
+#: system/class.widgets.php:488
+msgid "fewest-rated"
+msgstr "wenigst-bewertesten"
+
+#~ msgid "Counter"
+#~ msgstr "Zähler"
+
+#~ msgid ""
+#~ "A simple but powerful view counter and rating system, with own "
+#~ "(dashboard) widgets, for your awesome WordPress website"
+#~ msgstr ""
+#~ "Ein einfaches aber starkes Aufrufzähler- und Bewertungssystem, mit "
+#~ "eigenen (Dashboard) Widgets, für deine großartige WordPress Webseite."
